@@ -1,0 +1,163 @@
+header:
+  - titles:
+      # @start locale config
+      en      : &EN       Home
+      en-GB   : *EN
+      en-US   : *EN
+      en-CA   : *EN
+      en-AU   : *EN
+      zh-Hans : &ZH_HANS  主页
+      zh      : *ZH_HANS
+      zh-CN   : *ZH_HANS
+      zh-SG   : *ZH_HANS
+      zh-Hant : &ZH_HANT  主页
+      zh-TW   : *ZH_HANT
+      zh-HK   : *ZH_HANT
+      ko      : &KO       홈 페이지
+      ko-KR   : *KO
+      fr      : &FR       Maison
+      fr-BE   : *FR
+      fr-CA   : *FR
+      fr-CH   : *FR
+      fr-FR   : *FR
+      fr-LU   : *FR
+      # @end locale config
+    url: /home/
+  - titles:
+      # @start locale config
+      en      : &EN       ZABBIX
+      en-GB   : *EN
+      en-US   : *EN
+      en-CA   : *EN
+      en-AU   : *EN
+      zh-Hans : &ZH_HANS  ZABBIX
+      zh      : *ZH_HANS
+      zh-CN   : *ZH_HANS
+      zh-SG   : *ZH_HANS
+      zh-Hant : &ZH_HANT  ZABBIX
+      zh-TW   : *ZH_HANT
+      zh-HK   : *ZH_HANT
+      # @end locale config
+    url: /zabbix/setup-start.html
+  - titles:
+      # @start locale config
+      en      : &EN       DATABASE
+      en-GB   : *EN
+      en-US   : *EN
+      en-CA   : *EN
+      en-AU   : *EN
+      zh-Hans : &ZH_HANS  数据库
+      zh      : *ZH_HANS
+      zh-CN   : *ZH_HANS
+      zh-SG   : *ZH_HANS
+      zh-Hant : &ZH_HANT  数据库
+      zh-TW   : *ZH_HANT
+      zh-HK   : *ZH_HANT
+      # @end locale config
+    url: /oracle/start.html
+  - titles:
+      # @start locale config
+      en      : &EN       Others
+      en-GB   : *EN
+      en-US   : *EN
+      en-CA   : *EN
+      en-AU   : *EN
+      zh-Hans : &ZH_HANS  其他
+      zh      : *ZH_HANS
+      zh-CN   : *ZH_HANS
+      zh-SG   : *ZH_HANS
+      zh-Hant : &ZH_HANT  其他
+      zh-TW   : *ZH_HANT
+      zh-HK   : *ZH_HANT
+      # @end locale config
+    url: /Hobbies/music.html
+  - titles:
+      # @start locale config
+      en      : &EN       Archive
+      en-GB   : *EN
+      en-US   : *EN
+      en-CA   : *EN
+      en-AU   : *EN
+      zh-Hans : &ZH_HANS  归档
+      zh      : *ZH_HANS
+      zh-CN   : *ZH_HANS
+      zh-SG   : *ZH_HANS
+      zh-Hant : &ZH_HANT  歸檔
+      zh-TW   : *ZH_HANT
+      zh-HK   : *ZH_HANT
+      ko      : &KO       아카이브
+      ko-KR   : *KO
+      fr      : &FR       Archives
+      fr-BE   : *FR
+      fr-CA   : *FR
+      fr-CH   : *FR
+      fr-FR   : *FR
+      fr-LU   : *FR
+      # @end locale config
+    url: /archive.html
+  - titles:
+      # @start locale config
+      en      : &EN       About
+      en-GB   : *EN
+      en-US   : *EN
+      en-CA   : *EN
+      en-AU   : *EN
+      zh-Hans : &ZH_HANS  关于
+      zh      : *ZH_HANS
+      zh-CN   : *ZH_HANS
+      zh-SG   : *ZH_HANS
+      zh-Hant : &ZH_HANT  關於
+      zh-TW   : *ZH_HANT
+      zh-HK   : *ZH_HANT
+      ko      : &KO       소개
+      ko-KR   : *KO
+      fr      : &FR       À propos
+      fr-BE   : *FR
+      fr-CA   : *FR
+      fr-CH   : *FR
+      fr-FR   : *FR
+      fr-LU   : *FR
+      # @end locale config
+    url: /about.html
+  - title:     GitHub
+    url:        https://github.com/PureSoybean
+
+Hobbies:
+  - title:      音乐
+    children:
+      - title:  开始
+        url:    /Hobbies/music
+      - title:  问题总结
+        url:    /Hobbies/post/2020/07/26/muisc-1.html
+      - title:  科学发声技巧训练
+        url:    /Hobbies/post/2020/07/27/muisc-1.html
+  - title:      健身
+    children:
+      - title:  开始
+        url:    /Hobbies/sport
+
+zabbix:
+  - title:      zabbix-安装
+    children:
+      - title:  开始
+        url:    /zabbix/setup-start
+      - title:  zabbix容器化+grafana的安装和配置
+        url:    /zabbix/post/2020/09/02/zabbix-Docker-Setup.html
+  - title:      zabbix-运维
+    children:
+      - title:  开始
+        url:    /zabbix/service-start
+      - title:  zabbix添加网络设备
+        url:    /zabbix/post/2020/09/02/zabbix-Huawei.html
+      - title:  zabbix添加VMware
+        url:    /zabbix/post/2020/09/03/zabbix-VMware.html
+
+oracle:
+  - title:      开始
+    children:
+      - title:  开始
+        url:    /oracle/start
+  - title:      问题排查
+    children:
+      - title:  连接数问题
+        url:    /oracle/start
