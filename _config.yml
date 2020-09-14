@@ -130,7 +130,7 @@ comments:
   gitalk:
     clientID    : 7bb4055f85532e06e54c
     clientSecret: 09e8d7bbd2d04fcb378b251b0e05ebc0a92b49e6
-    repository  : puresoybeanblog
+    repository  : blogcommit
     owner       : PureSoybean
     admin:
       - PureSoybean
