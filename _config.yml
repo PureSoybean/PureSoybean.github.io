@@ -195,7 +195,7 @@ exclude:
   - jekyll-text-theme.gemspec
   - package-lock.json
   - package.json
-  - 2020-09-09-happybrithday.md
+  - /_posts/2020-09-09-happybrithday.md
   - /node_modules
   #- /screenshots
   #- /home
