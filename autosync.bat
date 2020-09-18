@@ -9,6 +9,6 @@ echo =======================================================
 REM change file directory
 cd C:\Users\zhan8\OneDrive\github\PureSoybean.github.io\TeXt
 REM start git script 
-git add . && git commit -m "ScriptBack %dd:/=-% %tt%" && git push origin master
+git add . && git commit -m "ScriptBack %dd:/=-% %tt%" && git push -u origin master
 
 pause
