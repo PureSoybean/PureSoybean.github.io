@@ -37,7 +37,7 @@ author:
   type      : puresoybean.cn # "person" (default), "organization"
   name      : PureSoynbean
   url       : puresoybean.cn
-  avatar    : http://image.puresoybean.cn/avatar03.jpg # path or url of avatar image (square)
+  avatar    : https://image.puresoybean.cn/avatar03.jpg # path or url of avatar image (square)
   bio       : 计算机软硬件爱好者|音乐爱好者|Live and Learn.
   email     :
   facebook  : # "user_name" the last part of your profile url, e.g. https://www.facebook.com/user_name
