@@ -103,6 +103,7 @@ paginate_path: /home/page:num # don't change this unless for special need
 ## => Sources
 ##############################
 ## sources: bootcdn # bootcdn (default), unpkg
+sources: bootcdn # bootcdn (default), unpkg
 
 
 ## => Sharing
