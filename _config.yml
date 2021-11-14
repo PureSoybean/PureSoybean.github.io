@@ -200,7 +200,7 @@ exclude:
   - /node_modules
   #- /screenshots
   #- /home
-  - /Hobbies
+  #- /Hobbies
   #- /docs
   - /vendor
 
